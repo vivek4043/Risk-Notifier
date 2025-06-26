@@ -21,7 +21,8 @@ Risk Notifier is a browser extension for real-time protection against malicious 
 ---
 
 ## Comparision table
-![Screenshot 2025-06-20 232935](https://github.com/user-attachments/assets/549b7d7f-6560-4e40-bbba-53982422c689)
+
+![Screenshot 2025-06-20 232935](https://github.com/user-attachments/assets/e8b96f9e-327b-4a7e-922c-d141a2cc39fc)
 
 
 
@@ -47,19 +48,20 @@ Risk Notifier is a browser extension for real-time protection against malicious 
 
 ## Screenshots
 
-![Screenshot 2025-06-22 125453](https://github.com/user-attachments/assets/03c7e5a8-a10a-4d91-a7ac-72a8053577d9)
+![Screenshot 2025-06-22 125453](https://github.com/user-attachments/assets/b38313aa-d55a-4ffb-b39b-7ebe63bf093e)
 
-![Screenshot 2025-06-22 134719](https://github.com/user-attachments/assets/3ef8e0eb-93a6-444b-a6c8-c02554550195)
+![Screenshot 2025-06-22 134719](https://github.com/user-attachments/assets/291e106c-a38c-49e3-906b-63c22e080350)
 
-![Screenshot 2025-06-16 005258](https://github.com/user-attachments/assets/000d7fa3-f548-4a77-a525-f5eb3c9c36e1)
+![Screenshot 2025-06-16 005258](https://github.com/user-attachments/assets/078970e0-a163-47ef-bb80-6f29c702bc91)
 
-![Screenshot 2025-06-16 005320](https://github.com/user-attachments/assets/ad9c8602-1526-4fcb-8797-52f529beade4)
+![Screenshot 2025-06-16 005320](https://github.com/user-attachments/assets/0ebe4862-2471-4f18-83a9-8484c2513cc3)
 
-![Screenshot 2025-06-17 182404](https://github.com/user-attachments/assets/3954c7db-33f2-4c7f-bbe8-22e34a9e39d9)
+![Screenshot 2025-06-16 005347](https://github.com/user-attachments/assets/a759ab25-710e-438c-8fdc-32845b564789)
 
-![Screenshot 2025-06-16 005320](https://github.com/user-attachments/assets/1617bd16-b60e-45d9-ab30-22db9697a9b2)
+![Screenshot 2025-06-17 182404](https://github.com/user-attachments/assets/06522488-874b-4a94-86f5-193bdfab87d8)
 
-![Screenshot 2025-06-22 125934](https://github.com/user-attachments/assets/d3ffd90c-e62d-4a71-b35d-f7ae000468f4)
+![Screenshot 2025-06-22 125934](https://github.com/user-attachments/assets/84bdd65c-cb3e-4b4f-a668-df1a5273d052)
+
 
 ---
 
