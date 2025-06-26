@@ -20,7 +20,7 @@ export const ApiKeySetup: React.FC<ApiKeySetupProps> = ({ onApiKeySet }) => {
 
   const loadApiKey = async () => {
     // First try to use hardcoded API key
-    if (HARDCODED_API_KEY && HARDCODED_API_KEY !== 'ce4b2bc95034d33a6fbb7a69fe82ce62e89aa3de60fadd25b893918683502f9a') {
+    if (HARDCODED_API_KEY && HARDCODED_API_KEY !== 'APIKEY') {
       try {
         await virusTotalService.setApiKey(HARDCODED_API_KEY);
         onApiKeySet();
