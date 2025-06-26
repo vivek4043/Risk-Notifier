@@ -1,0 +1,79 @@
+{
+  "manifest_version": 3,
+  "name": "Risk Notifier",
+  "version": "1.0.0",
+  "description": "Real-time security scanning with pre-download protection and multi-source threat intelligence",
+  
+  "permissions": [
+    "activeTab",
+    "storage",
+    "downloads",
+    "scripting",
+    "webNavigation",
+    "notifications",
+    "background"
+  ],
+  
+  "host_permissions": [
+    "*://*/*"
+  ],
+  
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "all_frames": false
+    }
+  ],
+  
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Risk Notifier - Security Scanner",
+    "default_icon": {
+      "16": "icons/logo.png",
+      "32": "icons/logo.png",
+      "48": "icons/logo.png",
+      "128": "icons/logo.png"
+    }
+  },
+  
+  "icons": {
+    "16": "icons/logo.png",
+    "32": "icons/logo.png",
+    "48": "icons/logo.png",
+    "128": "icons/logo.png"
+  },
+  
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "alert.html",
+        "icons/logo.png",
+        "*.js",
+        "*.css"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; connect-src 'self' https://www.virustotal.com https://api.hackertarget.com https://api.allorigins.win;"
+  },
+  
+  "externally_connectable": {
+    "matches": ["<all_urls>"]
+  },
+  
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "risk-notifier@extension.local",
+      "strict_min_version": "109.0"
+    }
+  }
+}
